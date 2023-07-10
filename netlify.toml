@@ -1,6 +1,8 @@
 [build]
-  command = "pip install -r requirements.txt && python build.py"
-  publish = "html_pages"
+  command = "pip install -r requirements.txt && python PYTHONPAGES/build.py"
+  publish = "path/to/public/directory"
 
 [build.environment]
-  PYTHONPATH = "python_pages"
+  PYTHONPATH = "PYTHONPAGES"
+
+
