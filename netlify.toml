@@ -1,0 +1,6 @@
+[build]
+  command = "pip install -r requirements.txt && python build.py"
+  publish = "html_pages"
+
+[build.environment]
+  PYTHONPATH = "python_pages"
