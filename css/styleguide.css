@@ -1,0 +1,296 @@
+:root { 
+  --alto: #d9d9d9;
+  --black: #000000;
+  --blue-jeans: #70addc;
+  --cultured-pearl: #f5f5f5;
+  --danube: #5ca2d8;
+  --green-blue: #0f54b4;
+  --mountain-mist: #999999;
+  --outrageous-orange: #fd6035;
+  --pomegranate: #fd4a18;
+  --san-juan: #294b75;
+  --white: #ffffff;
+ 
+  --font-size-l: 25px;
+  --font-size-m: 14.5px;
+  --font-size-xl: 26.1px;
+  --font-size-xxl: 27.9px;
+  --font-size-xxxl: 28.7px;
+  --font-size-xxxxl: 37.8px;
+  --font-size-xxxxxl: 56.6px;
+ 
+  --font-family-inter: "Inter", Helvetica;
+  --font-family-inter-semibold: "Inter-SemiBold", Helvetica;
+  --font-family-poppins: "Poppins", Helvetica;
+}
+.inter-bold-white-33-8px {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: 33.8px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-bold-white-25px {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-bold-black-74-3px {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: 74.3px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-normal-black-56-6px {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-medium-black-28-7px {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.inter-bold-white-35-4px {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: 35.4px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-extra-bold-outrageous-orange-71-3px {
+  color: var(--outrageous-orange);
+  font-family: var(--font-family-inter);
+  font-size: 71.3px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.inter-bold-black-14-5px {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-bold-white-27-9px {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-normal-black-37-8px {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-medium-pomegranate-37-1px {
+  color: var(--pomegranate);
+  font-family: var(--font-family-inter);
+  font-size: 37.1px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.inter-bold-outrageous-orange-37-1px {
+  color: var(--outrageous-orange);
+  font-family: var(--font-family-inter);
+  font-size: 37.1px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-bold-danube-37-1px {
+  color: var(--danube);
+  font-family: var(--font-family-inter);
+  font-size: 37.1px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-medium-san-juan-25px {
+  color: var(--san-juan);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.inter-medium-blue-jeans-19-5px {
+  color: var(--blue-jeans);
+  font-family: var(--font-family-inter);
+  font-size: 19.5px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.inter-medium-san-juan-11-2px {
+  color: var(--san-juan);
+  font-family: var(--font-family-inter);
+  font-size: 11.2px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.inter-bold-outrageous-orange-12-6px {
+  color: var(--outrageous-orange);
+  font-family: var(--font-family-inter);
+  font-size: 12.6px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-bold-green-blue-14-5px {
+  color: var(--green-blue);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-normal-white-9-4px {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: 9.4px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-black-san-juan-38-3px {
+  color: var(--san-juan);
+  font-family: var(--font-family-inter);
+  font-size: 38.3px;
+  font-style: normal;
+  font-weight: 900;
+}
+
+.inter-black-black-94-4px {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: 94.4px;
+  font-style: normal;
+  font-weight: 900;
+}
+
+.inter-medium-mountain-mist-30-8px {
+  color: var(--mountain-mist);
+  font-family: var(--font-family-inter);
+  font-size: 30.8px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.inter-normal-san-juan-37-8px {
+  color: var(--san-juan);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.poppins-normal-san-juan-29-3px {
+  color: var(--san-juan);
+  font-family: var(--font-family-poppins);
+  font-size: 29.3px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-normal-white-15-4px {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: 15.4px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-black-white-15-4px {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: 15.4px;
+  font-style: normal;
+  font-weight: 900;
+}
+
+.inter-medium-san-juan-38-3px {
+  color: var(--san-juan);
+  font-family: var(--font-family-inter);
+  font-size: 38.3px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.inter-bold-black-44-5px {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: 44.5px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-black-black-71px {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: 71px;
+  font-style: normal;
+  font-weight: 900;
+}
+
+.inter-bold-outrageous-orange-37-8px {
+  color: var(--outrageous-orange);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.poppins-medium-mountain-mist-23-8px {
+  color: var(--mountain-mist);
+  font-family: var(--font-family-poppins);
+  font-size: 23.8px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.inter-bold-black-58-6px {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: 58.6px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-medium-black-26-1px {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.inter-normal-san-juan-15-4px {
+  color: var(--san-juan);
+  font-family: var(--font-family-inter);
+  font-size: 15.4px;
+  font-style: normal;
+  font-weight: 400;
+}

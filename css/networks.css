@@ -1,0 +1,286 @@
+/* screen - networks */
+
+.networks {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 1570px;
+  overflow: hidden;
+  width: 1728px;
+}
+
+.networks .flex-col {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 132px;
+  margin-top: -7px;
+  min-height: 394px;
+  width: 1920px;
+}
+
+.networks .overlap-group2 {
+  align-items: center;
+  background-color: var(--san-juan);
+  display: flex;
+  height: 149px;
+  justify-content: flex-end;
+  min-width: 1920px;
+  padding: 0 25.6px;
+}
+
+.networks .asset-1300x-1 {
+  cursor: pointer;
+  height: 89px;
+  object-fit: cover;
+  width: 89px;
+}
+
+.networks .place {
+  cursor: pointer;
+  margin-left: 50px;
+  margin-top: 13.56px;
+  min-height: 46px;
+  width: 116px;
+}
+
+.networks .networks-1 {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 53px;
+  margin-top: 13.56px;
+  min-height: 46px;
+  width: 218px;
+}
+
+.networks .sign-in {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 1009px;
+  margin-top: 15.78px;
+  min-height: 48px;
+  width: 146px;
+}
+
+.networks .sign-in-1 {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 2.22px;
+  margin-left: 29px;
+  min-height: 48px;
+  width: 146px;
+}
+
+.networks .title {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 133.0px;
+  min-height: 114px;
+  min-width: 985px;
+}
+
+.networks .flex-row {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  height: 834px;
+  margin-left: 59.0px;
+  margin-top: 78px;
+  min-width: 1475px;
+}
+
+.networks .flex-col-1 {
+  align-self: center;
+  margin-top: 6.0px;
+  min-height: 820px;
+  width: 400px;
+}
+
+.networks .group-81 {
+  cursor: pointer;
+  display: block;
+  height: 613px;
+  opacity: 0;
+  transform: translate(25px, 0);
+  width: 400px;
+}
+
+.networks .group-81.animate-enter2 {
+  animation: animate-enter2-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(25px, 0);
+}
+
+@keyframes animate-enter2-frames {
+  from{opacity: 0;
+transform: translate(25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.networks .fone {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 6.0px;
+  margin-top: 1px;
+  min-height: 71px;
+  min-width: 160px;
+}
+
+.networks .fone-is-a-network-th {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 5.0px;
+  margin-top: 7px;
+  min-height: 128px;
+  text-align: center;
+  width: 355px;
+}
+
+.networks .group-container {
+  align-items: center;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-left: 138px;
+  min-height: 824px;
+  width: 400px;
+}
+
+.networks .group-83 {
+  cursor: pointer;
+  display: block;
+  height: 600px;
+  opacity: 0;
+  transform: translate(25px, 0);
+  width: 400px;
+}
+
+.networks .group-83.animate-enter1 {
+  animation: animate-enter1-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(25px, 0);
+}
+
+@keyframes animate-enter1-frames {
+  from{opacity: 0;
+transform: translate(25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.networks .overlap-group1 {
+  height: 222px;
+  margin-left: 2.0px;
+  position: relative;
+  width: 358px;
+}
+
+.networks .place-1 {
+  left: 116px;
+  position: absolute;
+  text-align: right;
+  top: 0;
+}
+
+.networks .gap-is-a-network-tha {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 62px;
+  width: 358px;
+}
+
+.networks .flex-col-2 {
+  margin-left: 62px;
+  min-height: 772px;
+  width: 475px;
+}
+
+.networks .group-82 {
+  cursor: pointer;
+  display: block;
+  height: 600px;
+  margin-left: 1.0px;
+  opacity: 0;
+  transform: translate(25px, 0);
+  width: 400px;
+}
+
+.networks .group-82.animate-enter {
+  animation: animate-enter-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(25px, 0);
+}
+
+@keyframes animate-enter-frames {
+  from{opacity: 0;
+transform: translate(25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.networks .flipper {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 34.0px;
+  margin-top: 5px;
+  min-height: 71px;
+  min-width: 235px;
+  text-align: right;
+}
+
+.networks .flipper-is-a-cutting {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 96px;
+  text-align: center;
+  width: 475px;
+}
+
+.networks .overlap-group {
+  align-items: center;
+  background-color: var(--san-juan);
+  display: flex;
+  height: 92px;
+  justify-content: flex-end;
+  margin-left: 2px;
+  margin-top: 179px;
+  min-width: 1728px;
+  padding: 0 589px;
+}
+
+.networks .x2023-ezcall-all-rights-reserved {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 34px;
+  min-width: 494px;
+}
+
+.networks .flex-col-3 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.networks .place-2 {
+  letter-spacing: 0;
+  line-height: normal;
+}

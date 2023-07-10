@@ -1,0 +1,263 @@
+/* screen - post-payment-page */
+
+.post-payment-page {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 2295px;
+  overflow: hidden;
+  width: 1728px;
+}
+
+.post-payment-page .overlap-group4 {
+  height: 149px;
+  margin-top: -6px;
+  position: relative;
+  width: 1728px;
+}
+
+.post-payment-page .sign-in {
+  left: 1574px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 50px;
+}
+
+.post-payment-page .rectangle-1 {
+  background-color: var(--san-juan);
+  height: 149px;
+  left: 0;
+  width: 1728px;
+}
+
+.post-payment-page .asset-1300x-1 {
+  cursor: pointer;
+  height: 89px;
+  left: 36px;
+  object-fit: cover;
+  position: absolute;
+  top: 30px;
+  width: 80px;
+}
+
+.post-payment-page .place {
+  cursor: pointer;
+  left: 161px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 58px;
+  width: 104px;
+}
+
+.post-payment-page .networks {
+  cursor: pointer;
+  left: 313px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 58px;
+  width: 196px;
+}
+
+.post-payment-page .sign-in-1 {
+  cursor: pointer;
+  left: 1574px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 49px;
+  width: 131px;
+}
+
+.post-payment-page .component-2 {
+  height: 441px;
+  margin-right: 40.0px;
+  margin-top: 146px;
+  opacity: 0;
+  position: relative;
+  transform: translate(25px, 0);
+  width: 1460px;
+}
+
+.post-payment-page .component-2.animate-enter5 {
+  animation: animate-enter5-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  opacity: 0;
+  transform: translate(25px, 0);
+}
+
+@keyframes animate-enter5-frames {
+  from{opacity: 0;
+transform: translate(25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.post-payment-page .thank-you-for-ordering {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: 170.7px;
+  font-weight: 900;
+  height: 284px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 141.6px;
+  position: absolute;
+  text-align: center;
+  top: -1px;
+}
+
+.post-payment-page .your-package-is-emailed-to-you {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: 61.6px;
+  font-weight: 900;
+  height: 92px;
+  left: 174px;
+  letter-spacing: 0;
+  line-height: 91.7px;
+  position: absolute;
+  text-align: center;
+  top: 348px;
+  white-space: nowrap;
+}
+
+.post-payment-page .purchase-another {
+  color: var(--black);
+  font-family: var(--font-family-inter-semibold);
+  font-size: 61.6px;
+  font-weight: 600;
+  height: 92px;
+  letter-spacing: 0;
+  line-height: 91.7px;
+  margin-right: 5.0px;
+  margin-top: 228px;
+  min-width: 653px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.post-payment-page .overlap-group-container {
+  align-items: flex-start;
+  display: flex;
+  margin-right: 38.0px;
+  margin-top: 98px;
+  min-width: 1364px;
+}
+
+.post-payment-page .overlap-group5 {
+  height: 703px;
+  position: relative;
+  width: 438px;
+}
+
+.post-payment-page .rectangle-27 {
+  background-color: var(--cultured-pearl);
+  height: 703px;
+  left: 2px;
+  width: 436px;
+}
+
+.post-payment-page .price {
+  left: 56px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 202px;
+}
+
+.post-payment-page .flipper {
+  left: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 11px;
+}
+
+.post-payment-page .general-package {
+  left: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 48px;
+  white-space: nowrap;
+}
+
+.post-payment-page .group-7:hover {
+  transform: scale(1.1);
+}
+
+.post-payment-page .overlap-group {
+  align-items: flex-end;
+  background-color: var(--green-blue);
+  display: flex;
+  height: 64px;
+  justify-content: flex-end;
+  min-width: 236px;
+  padding: 16.9px 56.6px;
+}
+
+.post-payment-page .overlap-group6 {
+  height: 703px;
+  margin-left: 26px;
+  position: relative;
+  width: 438px;
+}
+
+.post-payment-page .place-1 {
+  left: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 11px;
+}
+
+.post-payment-page .overlap-group7 {
+  height: 703px;
+  margin-left: 23px;
+  position: relative;
+  width: 438px;
+}
+
+.post-payment-page .fone {
+  left: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 11px;
+}
+
+.post-payment-page .group-57 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 2.0px;
+  margin-top: 352px;
+  min-width: 1730px;
+}
+
+.post-payment-page .overlap-group-1 {
+  align-items: flex-end;
+  background-color: var(--san-juan);
+  display: flex;
+  height: 92px;
+  justify-content: flex-end;
+  min-width: 1728px;
+  padding: 28px 575px;
+}
+
+.post-payment-page .x2023-ezcall-all-rights-reserved {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 34px;
+  min-width: 494px;
+}
+
+.post-payment-page .rectangle {
+  position: absolute;
+  top: 0;
+}

@@ -1,0 +1,232 @@
+/* screen - fone-page */
+
+.fone-page {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 2295px;
+  overflow: hidden;
+  width: 1728px;
+}
+
+.fone-page .overlap-group2 {
+  align-items: center;
+  background-color: var(--san-juan);
+  display: flex;
+  height: 149px;
+  justify-content: flex-end;
+  min-width: 1728px;
+  padding: 0 23px;
+}
+
+.fone-page .asset-1300x-1 {
+  cursor: pointer;
+  height: 89px;
+  object-fit: cover;
+  width: 80px;
+}
+
+.fone-page .place-1 {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 45px;
+  margin-top: 13.0px;
+  min-height: 46px;
+  width: 104px;
+}
+
+.fone-page .networks {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 48px;
+  margin-top: 13.0px;
+  min-height: 46px;
+  width: 196px;
+}
+
+.fone-page .sign-in {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 3.0px;
+  margin-left: 1065px;
+  min-height: 48px;
+  width: 131px;
+}
+
+.fone-page .flex-row {
+  align-items: center;
+  display: flex;
+  margin-right: 33.0px;
+  margin-top: 23px;
+  min-width: 1647px;
+}
+
+.fone-page .title {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 1.82px;
+  min-height: 114px;
+  min-width: 258px;
+}
+
+.fone-page .group-84 {
+  height: 124px;
+  margin-left: 12px;
+  width: 169px;
+}
+
+.fone-page .inclusive-packages-with-fone {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 452px;
+  margin-top: 0.18px;
+  min-height: 54px;
+  min-width: 756px;
+}
+
+.fone-page .overlap-group4 {
+  height: 1961px;
+  margin-left: 2.0px;
+  margin-top: 38px;
+  position: relative;
+  width: 1730px;
+}
+
+.fone-page .group-container {
+  height: 1961px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1730px;
+}
+
+.fone-page .overlap-group {
+  align-items: flex-end;
+  background-color: var(--san-juan);
+  display: flex;
+  height: 92px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 1728px;
+  padding: 28px 575px;
+  position: absolute;
+  top: 1869px;
+}
+
+.fone-page .x2023-ezcall-all-rights-reserved {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 34px;
+  min-width: 494px;
+}
+
+.fone-page .group-52 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 382px;
+  width: 619px;
+}
+
+.fone-page .overlap-group-1 {
+  height: 140px;
+  position: relative;
+  width: 613px;
+}
+
+.fone-page .fone {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 72px;
+}
+
+.fone-page .enjoy-unlimited-call {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 15px;
+  min-height: 217px;
+  width: 549px;
+}
+
+.fone-page .price-1 {
+  color: var(--pomegranate);
+  font-family: var(--font-family-inter);
+  font-size: 71.3px;
+  font-weight: 800;
+  margin-top: 4px;
+}
+
+.fone-page .overlap-group-2 {
+  height: 154px;
+  position: relative;
+  width: 576px;
+}
+
+.fone-page .fone-1 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 86px;
+}
+
+.fone-page .price {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 86px;
+}
+
+.fone-page .group-61 {
+  align-items: flex-start;
+  background-color: var(--green-blue);
+  display: flex;
+  height: 64px;
+  left: 1434px;
+  min-width: 236px;
+  padding: 16px 48px;
+  position: absolute;
+  top: 16px;
+}
+
+.fone-page .place {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 30px;
+}
+
+.fone-page .pay-button {
+  align-items: flex-start;
+  background-color: var(--green-blue);
+  display: flex;
+  height: 64px;
+  left: 1434px;
+  min-width: 236px;
+  padding: 16px 48px;
+  position: absolute;
+  top: 356px;
+}
+
+.fone-page .overlap-group1 {
+  align-items: flex-start;
+  background-color: var(--green-blue);
+  display: flex;
+  height: 64px;
+  left: 1434px;
+  min-width: 236px;
+  padding: 17px 48px;
+  position: absolute;
+  top: 713px;
+}
+
+.fone-page .price-3 {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 86px;
+}

@@ -1,0 +1,510 @@
+/* screen - pre-payment-page */
+
+.pre-payment-page {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 1294px;
+  overflow: hidden;
+  width: 1728px;
+}
+
+.pre-payment-page .overlap-group4 {
+  align-items: center;
+  background-color: var(--san-juan);
+  display: flex;
+  height: 149px;
+  justify-content: flex-end;
+  min-width: 1728px;
+  padding: 0 23px;
+}
+
+.pre-payment-page .asset-1300x-1 {
+  cursor: pointer;
+  height: 89px;
+  object-fit: cover;
+  width: 80px;
+}
+
+.pre-payment-page .place {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 45px;
+  margin-top: 13.0px;
+  min-height: 46px;
+  width: 104px;
+}
+
+.pre-payment-page .networks {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 48px;
+  margin-top: 13.0px;
+  min-height: 46px;
+  width: 196px;
+}
+
+.pre-payment-page .sign-in {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 3.0px;
+  margin-left: 1065px;
+  min-height: 48px;
+  width: 131px;
+}
+
+.pre-payment-page .overlap-group3 {
+  height: 768px;
+  margin-left: 45.7px;
+  margin-top: 127px;
+  position: relative;
+  width: 1542px;
+}
+
+.pre-payment-page .overlap-group2 {
+  height: 535px;
+  left: 0;
+  position: absolute;
+  top: 233px;
+  width: 1512px;
+}
+
+.pre-payment-page .rectangle-128 {
+  background-color: var(--white);
+  border: 1.19px solid;
+  border-color: var(--black);
+  height: 156px;
+  left: 779px;
+  position: absolute;
+  top: 379px;
+  width: 690px;
+}
+
+.pre-payment-page .rectangle-130 {
+  background-color: var(--white);
+  border: 1.19px solid;
+  border-color: var(--black);
+  height: 496px;
+  left: 0;
+  position: absolute;
+  top: 39px;
+  width: 779px;
+}
+
+.pre-payment-page .rectangle-135 {
+  background-color: var(--white);
+  border: 1.46px solid;
+  border-color: var(--black);
+  height: 47px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1468px;
+}
+
+.pre-payment-page .rectangle-136 {
+  background-color: var(--white);
+  border: 1.46px solid;
+  border-color: var(--black);
+  height: 47px;
+  left: 779px;
+  position: absolute;
+  top: 0;
+  width: 690px;
+}
+
+.pre-payment-page .rectangle-137 {
+  background-color: var(--white);
+  border: 1.46px solid;
+  border-color: var(--black);
+  height: 82px;
+  left: 779px;
+  position: absolute;
+  top: 45px;
+  width: 690px;
+}
+
+.pre-payment-page .rectangle-138 {
+  background-color: var(--white);
+  border: 1.46px solid;
+  border-color: var(--black);
+  height: 261px;
+  left: 779px;
+  position: absolute;
+  top: 124px;
+  width: 690px;
+}
+
+.pre-payment-page .package-info {
+  height: 23px;
+  left: 10px;
+  letter-spacing: 0;
+  line-height: 22.9px;
+  position: absolute;
+  top: 12px;
+  white-space: nowrap;
+}
+
+.pre-payment-page .payment-method {
+  height: 23px;
+  left: 795px;
+  letter-spacing: 0;
+  line-height: 22.9px;
+  position: absolute;
+  top: 12px;
+  white-space: nowrap;
+}
+
+.pre-payment-page .credit-card {
+  height: 23px;
+  left: 838px;
+  letter-spacing: 0;
+  line-height: 22.9px;
+  position: absolute;
+  top: 74px;
+  white-space: nowrap;
+}
+
+.pre-payment-page .ellipse-10 {
+  background-color: var(--white);
+  border: 1.46px solid;
+  border-color: var(--black);
+  border-radius: 9.48px;
+  height: 19px;
+  left: 802px;
+  position: absolute;
+  top: 76px;
+  width: 19px;
+}
+
+.pre-payment-page .ellipse-12 {
+  background-color: var(--outrageous-orange);
+  border-radius: 6.32px;
+  height: 13px;
+  left: 805px;
+  position: absolute;
+  top: 79px;
+  width: 13px;
+}
+
+.pre-payment-page .layer_1 {
+  height: 39px;
+  left: 1356px;
+  position: absolute;
+  top: 67px;
+  width: 156px;
+}
+
+.pre-payment-page .rectangle-151 {
+  background-color: var(--san-juan);
+  height: 61px;
+  left: 802px;
+  position: absolute;
+  top: 217px;
+  width: 631px;
+}
+
+.pre-payment-page .rectangle-152 {
+  height: 61px;
+  left: 802px;
+  position: absolute;
+  top: 289px;
+  width: 313px;
+}
+
+.pre-payment-page .rectangle-153 {
+  background-color: var(--san-juan);
+  height: 61px;
+  left: 1121px;
+  position: absolute;
+  top: 289px;
+  width: 311px;
+}
+
+.pre-payment-page .component-1 {
+  align-items: flex-start;
+  background-color: var(--san-juan);
+  display: flex;
+  height: 61px;
+  left: 801px;
+  min-width: 631px;
+  padding: 18.0px 14.6px;
+  position: absolute;
+  top: 146px;
+}
+
+.pre-payment-page .card-numbers {
+  height: 23px;
+  letter-spacing: 0;
+  line-height: 22.9px;
+  white-space: nowrap;
+}
+
+.pre-payment-page .place-1 {
+  left: 72px;
+  top: 127px;
+}
+
+.pre-payment-page .mister {
+  height: 23px;
+  left: 72px;
+  letter-spacing: 0;
+  line-height: 22.9px;
+  position: absolute;
+  top: 197px;
+  white-space: nowrap;
+}
+
+.pre-payment-page .place-2 {
+  left: 405px;
+  top: 168px;
+}
+
+.pre-payment-page .mistermiyagiemailcom {
+  height: 23px;
+  left: 57px;
+  letter-spacing: 0;
+  line-height: 22.9px;
+  position: absolute;
+  top: 241px;
+  white-space: nowrap;
+}
+
+.pre-payment-page .country-region {
+  height: 14px;
+  left: 72px;
+  letter-spacing: 0;
+  line-height: 14.0px;
+  position: absolute;
+  top: 110px;
+  white-space: nowrap;
+}
+
+.pre-payment-page .first-name {
+  height: 14px;
+  left: 72px;
+  letter-spacing: 0;
+  line-height: 14.0px;
+  position: absolute;
+  top: 180px;
+  white-space: nowrap;
+}
+
+.pre-payment-page .last-name {
+  height: 14px;
+  left: 405px;
+  letter-spacing: 0;
+  line-height: 14.0px;
+  position: absolute;
+  top: 153px;
+  white-space: nowrap;
+}
+
+.pre-payment-page .email {
+  height: 14px;
+  left: 72px;
+  letter-spacing: 0;
+  line-height: 14.0px;
+  position: absolute;
+  top: 250px;
+  white-space: nowrap;
+}
+
+.pre-payment-page .post-code {
+  height: 14px;
+  left: 72px;
+  letter-spacing: 0;
+  line-height: 14.0px;
+  position: absolute;
+  top: 320px;
+  white-space: nowrap;
+}
+
+.pre-payment-page .name-on-card {
+  height: 23px;
+  left: 817px;
+  letter-spacing: 0;
+  line-height: 22.9px;
+  position: absolute;
+  top: 236px;
+  white-space: nowrap;
+}
+
+.pre-payment-page .mmyy {
+  height: 23px;
+  left: 817px;
+  letter-spacing: 0;
+  line-height: 22.9px;
+  position: absolute;
+  top: 308px;
+  white-space: nowrap;
+}
+
+.pre-payment-page .cvv {
+  height: 23px;
+  left: 1130px;
+  letter-spacing: 0;
+  line-height: 22.9px;
+  position: absolute;
+  top: 308px;
+  white-space: nowrap;
+}
+
+.pre-payment-page .overlap-group {
+  align-items: flex-start;
+  background-color: var(--outrageous-orange);
+  border-radius: 7.29px;
+  display: flex;
+  height: 69px;
+  left: 971px;
+  min-width: 278px;
+  padding: 23.6px 45.2px;
+  position: absolute;
+  top: 421px;
+}
+
+.pre-payment-page .confirm-purchase {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: 17.5px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 21px;
+}
+
+.pre-payment-page .overlap-group1 {
+  height: 411px;
+  left: 31px;
+  position: absolute;
+  top: 74px;
+  width: 717px;
+}
+
+.pre-payment-page .price {
+  color: var(--outrageous-orange);
+  font-family: var(--font-family-inter);
+  font-size: 73.3px;
+  font-weight: 800;
+  left: 451px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 322px;
+}
+
+.pre-payment-page .group-52 {
+  flex-direction: column;
+  left: 0;
+  min-height: 392px;
+  position: absolute;
+  top: 0;
+  width: 636px;
+}
+
+.pre-payment-page .overlap-group-1 {
+  height: 144px;
+  position: relative;
+  width: 630px;
+}
+
+.pre-payment-page .general-package {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: 76.3px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 630px;
+}
+
+.pre-payment-page .gap-unlimited {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: 58.2px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 74px;
+}
+
+.pre-payment-page .rectangle-2194 {
+  background-color: var(--san-juan);
+  height: 5px;
+  margin-left: 0;
+  margin-top: 5px;
+  width: 502px;
+}
+
+.pre-payment-page .enjoy-unlimited-call {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: 29.5px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 0;
+  margin-top: 15px;
+  min-height: 223px;
+  width: 564px;
+}
+
+.pre-payment-page .title {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: 170.7px;
+  font-weight: 900;
+  height: 255px;
+  left: 17px;
+  letter-spacing: 0;
+  line-height: 254.1px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.pre-payment-page .group-57 {
+  margin-left: 2.0px;
+  margin-top: 158px;
+  min-width: 1730px;
+}
+
+.pre-payment-page .overlap-group-2 {
+  align-items: flex-end;
+  background-color: var(--san-juan);
+  display: flex;
+  height: 92px;
+  justify-content: flex-end;
+  min-width: 1728px;
+  padding: 28px 575px;
+}
+
+.pre-payment-page .x2023-ezcall-all-rights-reserved {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 34px;
+  min-width: 494px;
+}
+
+.pre-payment-page .group {
+  align-items: flex-start;
+  display: flex;
+}
+
+.pre-payment-page .place-3 {
+  height: 23px;
+  letter-spacing: 0;
+  line-height: 22.9px;
+  position: absolute;
+  white-space: nowrap;
+}

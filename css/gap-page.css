@@ -1,0 +1,237 @@
+/* screen - gap-page */
+
+.gap-page {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 2295px;
+  overflow: hidden;
+  width: 1728px;
+}
+
+.gap-page .overlap-group4 {
+  align-items: center;
+  background-color: var(--san-juan);
+  display: flex;
+  height: 149px;
+  justify-content: flex-end;
+  min-width: 1728px;
+  padding: 0 23px;
+}
+
+.gap-page .asset-1300x-1 {
+  cursor: pointer;
+  height: 89px;
+  object-fit: cover;
+  width: 80px;
+}
+
+.gap-page .place-1 {
+  cursor: pointer;
+  margin-left: 45px;
+  margin-top: 13.0px;
+  min-height: 46px;
+  width: 104px;
+}
+
+.gap-page .networks {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 48px;
+  margin-top: 13.0px;
+  min-height: 46px;
+  width: 196px;
+}
+
+.gap-page .sign-in {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 3.0px;
+  margin-left: 1065px;
+  min-height: 48px;
+  width: 131px;
+}
+
+.gap-page .flex-row {
+  align-items: center;
+  display: flex;
+  gap: 541px;
+  margin-right: 14.0px;
+  margin-top: 23px;
+  min-width: 1666px;
+}
+
+.gap-page .group-66 {
+  align-items: flex-start;
+  display: flex;
+  gap: 16px;
+  min-width: 395px;
+}
+
+.gap-page .place-2 {
+  align-self: center;
+  margin-top: 0.18px;
+  min-height: 114px;
+  min-width: 208px;
+}
+
+.gap-page .group-49 {
+  height: 124px;
+  margin-top: 0;
+  width: 169px;
+}
+
+.gap-page .inclusive-packages-with-gap {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 0.18px;
+  min-height: 54px;
+  min-width: 730px;
+}
+
+.gap-page .overlap-group-container {
+  height: 1961px;
+  margin-left: 2.0px;
+  margin-top: 38px;
+  position: relative;
+  width: 1730px;
+}
+
+.gap-page .group-container {
+  height: 1961px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1730px;
+}
+
+.gap-page .overlap-group {
+  align-items: flex-end;
+  background-color: var(--san-juan);
+  display: flex;
+  height: 92px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 1728px;
+  padding: 28px 575px;
+  position: absolute;
+  top: 1869px;
+}
+
+.gap-page .x2023-ezcall-all-rights-reserved {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 34px;
+  min-width: 494px;
+}
+
+.gap-page .group-52 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 382px;
+  width: 619px;
+}
+
+.gap-page .overlap-group-1 {
+  height: 140px;
+  position: relative;
+  width: 613px;
+}
+
+.gap-page .gap {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 72px;
+}
+
+.gap-page .enjoy-unlimited-call {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 15px;
+  min-height: 217px;
+  width: 549px;
+}
+
+.gap-page .price-1 {
+  margin-top: 4px;
+}
+
+.gap-page .overlap-group-2 {
+  height: 154px;
+  position: relative;
+  width: 576px;
+}
+
+.gap-page .gap-1 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 86px;
+}
+
+.gap-page .price {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 86px;
+}
+
+.gap-page .overlap-group1 {
+  align-items: flex-start;
+  background-color: var(--green-blue);
+  display: flex;
+  height: 64px;
+  left: 1434px;
+  min-width: 236px;
+  padding: 17px 48px;
+  position: absolute;
+  top: 16px;
+}
+
+.gap-page .place {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 30px;
+}
+
+.gap-page .overlap-group2 {
+  align-items: flex-start;
+  background-color: var(--green-blue);
+  display: flex;
+  height: 64px;
+  left: 1434px;
+  min-width: 236px;
+  padding: 17px 48px;
+  position: absolute;
+  top: 356px;
+}
+
+.gap-page .overlap-group3 {
+  align-items: flex-start;
+  background-color: var(--green-blue);
+  display: flex;
+  height: 64px;
+  left: 1434px;
+  min-width: 236px;
+  padding: 17px 48px;
+  position: absolute;
+  top: 713px;
+}
+
+.gap-page .place-3 {
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.gap-page .price-3 {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 86px;
+}

@@ -1,0 +1,313 @@
+/* screen - my-account */
+
+.my-account {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 1954px;
+  overflow: hidden;
+  width: 1728px;
+}
+
+.my-account .overlap-group5 {
+  height: 823px;
+  position: relative;
+  width: 2274px;
+}
+
+.my-account .overlap-group {
+  height: 640px;
+  left: 18px;
+  position: absolute;
+  top: 134px;
+  width: 2256px;
+}
+
+.my-account .title {
+  color: var(--pomegranate);
+  font-family: var(--font-family-inter);
+  font-size: 194.1px;
+  font-weight: 900;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 2256px;
+}
+
+.my-account .text-2 {
+  color: var(--pomegranate);
+  font-family: var(--font-family-inter);
+  font-size: 37.8px;
+  font-weight: 700;
+  left: 553px;
+  position: absolute;
+  top: 332px;
+  white-space: nowrap;
+  width: 729px;
+}
+
+.my-account .group-69 {
+  background-color: var(--alto);
+  flex-direction: column;
+  gap: 8px;
+  min-height: 125px;
+  padding: 8.8px 12.0px;
+  top: 567px;
+  width: 1541px;
+}
+
+.my-account .email {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 46px;
+}
+
+.my-account .shazaibisagoodprogammeremailcom {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 46px;
+}
+
+.my-account .group-68 {
+  background-color: var(--alto);
+  flex-direction: column;
+  gap: 8px;
+  min-height: 125px;
+  padding: 8.8px 12.0px;
+  top: 699px;
+  width: 1541px;
+}
+
+.my-account .membership-id {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 46px;
+}
+
+.my-account .text-3 {
+  min-height: 46px;
+}
+
+.my-account .group-70 {
+  height: 155px;
+  min-width: 1541px;
+  top: 436px;
+}
+
+.my-account .overlap-group3 {
+  height: 154px;
+  position: relative;
+  width: 1541px;
+}
+
+.my-account .rectangle-2201 {
+  background-color: var(--alto);
+  height: 125px;
+  width: 1541px;
+}
+
+.my-account .full-name {
+  left: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 9px;
+}
+
+.my-account .shazib-shazib {
+  left: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 62px;
+}
+
+.my-account .rectangle-1 {
+  background-color: var(--san-juan);
+  height: 149px;
+  width: 1728px;
+}
+
+.my-account .asset-1300x-1 {
+  cursor: pointer;
+  height: 89px;
+  left: 36px;
+  object-fit: cover;
+  position: absolute;
+  top: 30px;
+  width: 80px;
+}
+
+.my-account .place {
+  cursor: pointer;
+  left: 161px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 58px;
+  width: 104px;
+}
+
+.my-account .networks {
+  cursor: pointer;
+  left: 313px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 58px;
+  width: 196px;
+}
+
+.my-account .sign-in {
+  cursor: pointer;
+  left: 1574px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 49px;
+  width: 131px;
+}
+
+.my-account .overlap-group-container {
+  align-self: center;
+  height: 558px;
+  margin-right: 31.4px;
+  margin-top: 182px;
+  position: relative;
+  width: 1545px;
+}
+
+.my-account .overlap-group1 {
+  align-items: flex-start;
+  background-color: var(--alto);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  left: 0;
+  min-height: 125px;
+  padding: 9.8px 12.0px;
+  position: absolute;
+  top: 86px;
+  width: 1541px;
+}
+
+.my-account .membership-id-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 46px;
+}
+
+.my-account .text-4 {
+  min-height: 46px;
+}
+
+.my-account .overlap-group2 {
+  align-items: flex-start;
+  background-color: var(--alto);
+  display: flex;
+  height: 558px;
+  left: 0;
+  min-width: 1541px;
+  padding: 9.8px 12.0px;
+  position: absolute;
+  top: 0;
+}
+
+.my-account .your-previous-packages {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 46px;
+}
+
+.my-account .overlap-group4 {
+  height: 125px;
+  left: 0;
+  position: absolute;
+  top: 88px;
+  width: 1541px;
+}
+
+.my-account .overlap-group-1 {
+  background-color: var(--outrageous-orange);
+  height: 125px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1541px;
+}
+
+.my-account .general-package {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: 38.3px;
+  font-weight: 900;
+  left: 8px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 21px;
+}
+
+.my-account .gap-unlimted {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: 38.3px;
+  font-weight: 500;
+  left: 8px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 57px;
+}
+
+.my-account .price {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: 80.2px;
+  font-weight: 800;
+  left: 1220px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 13px;
+}
+
+.my-account .overlap-group6 {
+  align-items: center;
+  background-color: var(--san-juan);
+  display: flex;
+  height: 92px;
+  justify-content: flex-end;
+  margin-top: 299px;
+  min-width: 1728px;
+  padding: 0 589px;
+}
+
+.my-account .x2023-ezcall-all-rights-reserved {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 34px;
+  min-width: 494px;
+}
+
+.my-account .group {
+  align-items: flex-start;
+  display: flex;
+  left: 76px;
+  position: absolute;
+}
+
+.my-account .rectangle {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.my-account .text {
+  letter-spacing: 0;
+  line-height: normal;
+}

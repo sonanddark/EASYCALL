@@ -1,0 +1,33 @@
+.container-center-horizontal {
+  /* Centers the content horizontally */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Takes up the full height of the viewport */
+}
+
+.payment-confirm {
+  text-align: center; /* Centers the text horizontally */
+}
+
+.payment-confirmed-you-purchased {
+  color: #333; /* Sets the text color to a dark shade of gray */
+  font-size: 72px; /* Sets the font size to 72 pixels */
+  line-height: 1.2; /* Sets the spacing between lines of text to 1.2 times the font size */
+  margin-bottom: 32px; /* Adds a bottom margin of 32 pixels */
+}
+
+.continue {
+  display: inline-block; /* Displays the element as an inline block */
+  background-color: #ff7700; /* Sets the background color to a shade of orange */
+  color: #fff; /* Sets the text color to white */
+  font-size: 36px; /* Sets the font size to 36 pixels */
+  padding: 16px 32px; /* Adds padding of 16 pixels on the top and bottom, and 32 pixels on the left and right */
+  text-decoration: none; /* Removes any text decoration (e.g., underline) */
+  border-radius: 4px; /* Adds a border radius of 4 pixels to create rounded corners */
+  transition: background-color 0.3s ease; /* Adds a transition effect to the background color with a duration of 0.3 seconds and easing */
+}
+
+.continue:hover {
+  background-color: #ff9900; /* Changes the background color to a different shade of orange on hover */
+}
