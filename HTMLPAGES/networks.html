@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+
+  <meta name="viewport" content="width=1728, maximum-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+  <meta name="og:type" content="website" />
+  <meta name="twitter:card" content="photo" />
+  <link rel="stylesheet" type="text/css" href="css/networks.css" />
+  <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+  <link rel="stylesheet" type="text/css" href="css/globals.css" />
+</head>
+<body style="margin: 0; background: #ffffff">
+  <!-- Hidden input field to store the current page name -->
+  <input type="hidden" id="anPageName" name="page" value="networks" />
+
+  <!-- Container for the page content -->
+  <div class="container-center-horizontal">
+    <form class="networks screen" name="form13" action="form13" method="post">
+      <!-- Navigation section -->
+      <div class="flex-col">
+        <div class="overlap-group2">
+          <a href="javascript:SubmitForm('form13')"
+            ><img class="asset-1300x-1" src="img/asset-1-300x-1@2x.png" alt="Asset 1@300x 1" /> </a
+          ><a href="home.html"><div class="place place-2 inter-bold-white-33-8px">HOME</div> </a
+          ><a href="networks.html"
+            ><div class="networks-1 inter-bold-white-33-8px">NETWORKS</div> </a
+          ><div class="sign-in inter-bold-white-35-4px" style="visibility: hidden;">SIGN IN</div>
+          ><div class="sign-in-1 inter-bold-white-35-4px" style="visibility: hidden;">SIGN IN</div>
+        </div>
+        <!-- Title -->
+        <h1 class="title inter-black-black-94-4px">ALL OUR NETWORKS</h1>
+      </div>
+
+      <!-- Networks section -->
+      <div class="flex-row">
+        <div class="flex-col-1 flex-col-3">
+          <a href="fone-page.html"
+            ><img class="group-81 animate-enter2" src="img/group-81.png" alt="Group 81" />
+          </a>
+          <div class="fone inter-bold-black-58-6px">FONE</div>
+          <p class="fone-is-a-network-th inter-medium-black-26-1px">
+            Fone is a network that offers reliable and affordable communication services.
+          </p>
+        </div>
+        <div class="group-container">
+          <a href="gap-page.html"
+            ><img class="group-83 animate-enter1" src="img/group-83.png" alt="Group 83" />
+          </a>
+          <div class="overlap-group1">
+            <div class="place-1 place-2 inter-bold-black-58-6px">GAP</div>
+            <p class="gap-is-a-network-tha inter-medium-black-26-1px">
+              Gap is a network that focuses on bridging communication gaps and connecting people worldwide.
+            </p>
+          </div>
+        </div>
+        <div class="flex-col-2 flex-col-3">
+          <a href="flipper-page.html"
+            ><img class="group-82 animate-enter" src="img/group-82.png" alt="Group 82" />
+          </a>
+          <div class="flipper inter-bold-black-58-6px">FLIPPER</div>
+          <p class="flipper-is-a-cutting inter-medium-black-26-1px">
+            Flipper is a cutting-edge network with advanced features and seamless connectivity.
+          </p>
+        </div>
+      </div>
+
+      <!-- Footer section -->
+      <div class="overlap-group">
+        <p class="x2023-ezcall-all-rights-reserved inter-bold-white-27-9px">© 2023 EZCALL. All rights reserved.</p>
+      </div>
+    </form>
+  </div>
+
+  <!-- ShowOnScroll JavaScript code -->
+  <script>
+    function ShowOnScroll() {
+      this.toShow = [];
+      this.nextEventY = undefined;
+    }
+
+    ShowOnScroll.prototype.show = function (e) {
+      e.style.display = "";
+    };
+
+    ShowOnScroll.prototype.hide = function (e) {
+      e.style.display = "none";
+    };
+
+    ShowOnScroll.prototype.getTop = function (e) {
+      if (e.Top != undefined && e.Top != 0) {
+        return e.Top;
+      }
+      var top = 0;
+      var iter = e;
+      do {
+        top += iter.offsetTop || 0;
+        iter = iter.offsetParent;
+      } while (iter);
+      e.Top = top;
+      return top;
+    };
+
+    ShowOnScroll.prototype.onScroll = function () {
+      var screenBottom = window.pageYOffset + window.innerHeight;
+      if (this.nextEventY == undefined || this.nextEventY > screenBottom) {
+        return;
+      }
+      this.nextEventY = undefined;
+      for (var i = 0; i < this.toShow.length; i++) {
+        var e = this.toShow[i];
+        var top = this.getTop(e);
+        if (top < screenBottom) {
+          this.show(e);
+          this.toShow.shift();
+          i--;
+        } else {
+          this.nextEventY = top;
+          break;
+        }
+      }
+    };
+
+    ShowOnScroll.prototype.resetScrolling = function () {
+      // Clear state
+      var screenBottom = window.pageYOffset + window.innerHeight;
+      for (var i = 0; i < this.toShow.length; i++) {
+        var e = this.toShow[i];
+        this.show(e);
+      }
+      this.toShow = [];
+      this.nextEventY == undefined;
+
+      // Collect items
+      var itemsToShowOnScroll = Array.prototype.slice.call(document.getElementsByTagName("*"));
+      itemsToShowOnScroll = itemsToShowOnScroll.filter(function (e) {
+        return e.getAttribute("show-on-scroll") != undefined;
+      });
+      var getTop = this.getTop;
+      itemsToShowOnScroll.sort(function (a, b) {
+        return getTop(a) - getTop(b);
+      });
+      for (var i = 0; i < itemsToShowOnScroll.length; i++) {
+        var e = itemsToShowOnScroll[i];
+        var top = this.getTop(e);
+        if (top < screenBottom) {
+          continue;
+        }
+        this.toShow.push(e);
+        this.hide(e);
+        this.nextEventY = this.nextEventY != undefined ? this.nextEventY : top;
+      }
+   };
+
+    ShowOnScroll.prototype.handleEvent = function (e) {
+      switch (e.type) {
+        case "scroll":
+          this.onScroll();
+          break;
+        case "resize":
+          this.resetScrolling();
+          break;
+      }
+    };
+
+    ShowOnScroll.prototype.init = function () {
+      this.resetScrolling();
+      window.addEventListener("scroll", this);
+      window.addEventListener("resize", this);
+    };
+
+    // After anima-src
+    setTimeout(function () {
+      var instShowOnScroll = new ShowOnScroll();
+      instShowOnScroll.init();
+    }, 250);
+  </script>
+
+  <!-- Custom JavaScript code -->
+  <script>
+    // Polyfill for HTMLFormElement.prototype.reportValidity() if not supported
+    if (!HTMLFormElement.prototype.reportValidity) {
+      HTMLFormElement.prototype.reportValidity = function () {
+        if (this.checkValidity()) return true;
+        var btn = document.createElement("button");
+        this.appendChild(btn);
+        btn.click();
+        this.removeChild(btn);
+        return false;
+      };
+    }
+
+    // Function to submit the form if it's valid
+    function SubmitForm(form_name) {
+      var form = document.getElementsByName(form_name)[0];
+      if (form.reportValidity()) {
+        form.submit();
+        if (window.submitted) window.submitted();
+      }
+    }
+  </script>
+</body>
+</html>

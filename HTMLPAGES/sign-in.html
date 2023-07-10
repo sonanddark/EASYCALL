@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1728, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/sign-in.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+  </head>
+  <body style="margin: 0; background: #ffffff">
+    <input type="hidden" id="anPageName" name="page" value="sign-in" />
+    <div class="container-center-horizontal">
+      <form class="sign-in screen" name="form9" action="signin.py" method="post">
+        <div class="overlap-group2">
+          <a href="javascript:SubmitForm('form9')"><img class="asset-1300x-1" src="img/asset-1-300x-1@2x.png" alt="Asset 1@300x 1" /></a>
+          <a href="home.html"><div class="place inter-bold-white-33-8px">HOME</div></a>
+          <a href="sign-in.html"><div class="networks inter-bold-white-33-8px">NETWORKS</div></a>
+          <div class="sign-in inter-bold-white-35-4px" style="visibility: hidden;">SIGN IN</div>
+        </div>
+        <div class="overlap-group1">
+          <div class="here inter-normal-black-37-8px">here</div>
+          <div class="group-42">
+            <div class="overlap-group">
+              <h1 class="title inter-black-black-71px">SIGN-IN</h1>
+              <p class="if-you-dont-have-an-account-register inter-normal-black-37-8px">
+                If you don’t have an account,
+              </p>
+            </div>
+            <div class="group-40">
+              <div class="group-38">
+                <div class="group-37">
+                  <div class="email inter-medium-mountain-mist-30-8px">Email</div>
+                  <div class="flex-row">
+                    <img class="message-1" src="img/message-1.svg" alt="message 1" />
+                    <input
+                      class="enter-your-email-address inter-normal-san-juan-37-8px"
+                      name="enteryouremailaddress"
+                      placeholder="Enter your email address"
+                      type="text"
+                    />
+                  </div>
+                  <div class="rectangle-8 rectangle"></div>
+                </div>
+                <div class="group-36">
+                  <div class="password inter-medium-mountain-mist-30-8px">Password</div>
+                  <div class="group-35">
+                    <img class="padlock-1" src="img/padlock-1-2.svg" alt="padlock 1" />
+                    <input
+                      class="enter-your-password inter-normal-san-juan-37-8px"
+                      name="enteryourpassword"
+                      placeholder="Enter your Password"
+                      type="password" <!-- Changed input type to "password" to hide the entered password -->
+                    />
+                  </div>
+                  <div class="rectangle-9 rectangle"></div>
+                </div>
+              </div>
+              <div class="login">Login</div>
+            </div>
+          </div>
+          <a href="sign-up.html"><div class="signup inter-bold-outrageous-orange-37-8px">signup</div></a>
+          <button class="component-3"><div class="login-1">LOGIN</div></button>
+        </div>
+        <div class="overlap-group3">
+          <p class="x2023-ezcall-all-rights-reserved inter-bold-white-27-9px">© 2023 EZCALL. All rights reserved.</p>
+        </div>
+      </form>
+    </div>
+    <script>
+      // Polyfill for HTMLFormElement.reportValidity()
+      if (!HTMLFormElement.prototype.reportValidity) {
+        HTMLFormElement.prototype.reportValidity = function () {
+          if (this.checkValidity()) return true;
+          var btn = document.createElement("button");
+          this.appendChild(btn);
+          btn.click();
+          this.removeChild(btn);
+          return false;
+        };
+      }
+
+      function SubmitForm(form_name) {
+        var form = document.getElementsByName(form_name)[0];
+        if (form.reportValidity()) {
+          form.submit();
+          if (window.submitted) window.submitted();
+        }
+      }
+    </script>
+  </body>
+</html>

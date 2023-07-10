@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Membership</title>
+</head>
+<body>
+  <!-- Heading -->
+  <h1>Your MEMBERSHIP ID IS:</h1>
+
+  <!-- Membership ID placeholder -->
+  <p id="membership-id"></p>
+
+  <!-- Continue button -->
+  <button onclick="window.location.href='home.html'">Continue</button>
+
+  <!-- JavaScript code -->
+  <script>
+    // Function to extract URL parameter by name
+    function getParameterByName(name, url) {
+      if (!url) url = window.location.href;
+      name = name.replace(/[\[\]]/g, '\\$&');
+      var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+          results = regex.exec(url);
+      if (!results) return null;
+      if (!results[2]) return '';
+      return decodeURIComponent(results[2].replace(/\+/g, ' '));
+    }
+
+    // Function to display the membership ID
+    function displayMembershipId() {
+      var membershipId = getParameterByName('membership_id');
+      document.getElementById("membership-id").textContent = membershipId;
+    }
+
+    // Call the displayMembershipId function to show the ID on page load
+    displayMembershipId();
+  </script>
+</body>
+</html>

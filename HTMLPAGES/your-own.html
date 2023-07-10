@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Make Your Own Deal</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      h1 {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .section {
+        margin-bottom: 30px;
+      }
+
+      .section-title {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+
+      .option {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+
+      .option-label {
+        margin-right: 10px;
+      }
+
+      .option-price {
+        margin-left: auto;
+      }
+
+      .button {
+        padding: 10px 20px;
+        background-color: #f2f2f2;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: bold;
+      }
+
+      .button.selected {
+        background-color: #42b983;
+        color: #ffffff;
+      }
+
+      .button:hover {
+        background-color: #e6e6e6;
+      }
+
+      .total-price {
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Make Your Own Deal</h1>
+
+      <div class="section">
+        <div class="section-title">How much data do you want?</div>
+        <div class="option">
+          <label class="option-label">10 GB</label>
+          <span class="option-price">$5</span>
+          <button class="button" onclick="selectOption(this, 5, 'data')">Choose</button>
+        </div>
+        <div class="option">
+          <label class="option-label">20 GB</label>
+          <span class="option-price">$7.5</span>
+          <button class="button" onclick="selectOption(this, 7.5, 'data')">Choose</button>
+        </div>
+        <div class="option">
+          <label class="option-label">30 GB</label>
+          <span class="option-price">$10</span>
+          <button class="button" onclick="selectOption(this, 10, 'data')">Choose</button>
+        </div>
+        <div class="option">
+          <label class="option-label">50 GB</label>
+          <span class="option-price">$12.5</span>
+          <button class="button" onclick="selectOption(this, 12.5, 'data')">Choose</button>
+        </div>
+        <div class="option">
+          <label class="option-label">100 GB</label>
+          <span class="option-price">$15</span>
+          <button class="button" onclick="selectOption(this, 15, 'data')">Choose</button>
+        </div>
+        <div class="option">
+          <label class="option-label">Unlimited GB</label>
+          <span class="option-price">$25</span>
+          <button class="button" onclick="selectOption(this, 25, 'data')">Choose</button>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-title">What call deal do you want?</div>
+        <div class="option">
+          <label class="option-label">$0.5/1 min, $0.5/message</label>
+          <button class="button" onclick="selectOption(this, 0.5, 'call')">Choose</button>
+        </div>
+        <div class="option">
+          <label class="option-label">Unlimited</label>
+          <span class="option-price">$25</span>
+          <button class="button" onclick="selectOption(this, 25, 'call')">Choose</button>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-title">4G / 5G?</div>
+        <div class="option">
+          <label class="option-label">4G</label>
+          <button class="button" onclick="selectOption(this, 0, 'network')">Choose</button>
+        </div>
+        <div class="option">
+          <label class="option-label">5G</label>
+          <span class="option-price">$10</span>
+          <button class="button" onclick="selectOption(this, 10, 'network')">Choose</button>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-title">International calls and messages?</div>
+        <div class="option">
+          <label class="option-label">Yes ($0.10/min, $0.10/message)</label>
+          <button class="button" onclick="selectOption(this, 0, 'international')">Choose</button>
+        </div>
+        <div class="option">
+          <label class="option-label">No</label>
+          <button class="button" onclick="selectOption(this, 0, 'international')">Choose</button>
+        </div>
+      </div>
+
+      <div class="section">
+        <button class="button" onclick="submitForm()"><a href="post-payment-page.html">Submit</a></button>
+      </div>
+
+      <div class="total-price" id="total-price"></div>
+        <p>
+            Please be aware that because you have choosen to make you own deal this is gonna be a 2 years contract 
+
+            and if you have choosen to pay your calls and messages by mnts it wont show on the invoce but it will be calculated at the end of each month.
+        </p>
+      <script>
+        var selectedOptions = {
+          data: null,
+          call: null,
+          network: null,
+          international: null
+        };
+
+        function selectOption(button, price, section) {
+          var currentSelection = selectedOptions[section];
+          if (currentSelection !== null) {
+            currentSelection.classList.remove('selected');
+          }
+
+          selectedOptions[section] = button;
+          button.classList.add('selected');
+          calculatePrice();
+        }
+
+        function calculatePrice() {
+          var totalPriceElement = document.getElementById('total-price');
+          var totalPrice = 0;
+
+          Object.keys(selectedOptions).forEach(function(section) {
+            var button = selectedOptions[section];
+            if (button !== null && button.classList.contains('selected')) {
+              var price = parseFloat(button.parentNode.querySelector('.option-price').textContent.replace('$', ''));
+              totalPrice += price;
+            }
+          });
+
+          totalPriceElement.textContent = 'Total Price: $' + totalPrice.toFixed(2);
+        }
+
+        function submitForm() {
+          var totalPriceElement = document.getElementById('total-price');
+          var totalPrice = parseFloat(totalPriceElement.textContent.replace('Total Price: $', ''));
+          alert('Total Price: $' + totalPrice.toFixed(2));
+        }
+      </script>
+    </div>
+  </body>
+</html>

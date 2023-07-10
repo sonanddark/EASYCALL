@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=1728, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/pre-payment-page.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+  </head>
+  <body style="margin: 0; background: #ffffff">
+    <input type="hidden" id="anPageName" name="page" value="pre-payment-page" />
+    <div class="container-center-horizontal">
+      <form class="pre-payment-page screen" name="form41" action="form41" method="post">
+        <div class="overlap-group4">
+          <a href="javascript:SubmitForm('form41')"
+            ><img class="asset-1300x-1" src="img/asset-1-300x-1-3@2x.png" alt="Asset 1@300x 1" /> </a
+          ><a href="home.html"><div class="place inter-bold-white-33-8px">HOME</div> </a
+          ><a href="networks.html"><div class="networks inter-bold-white-33-8px">NETWORKS</div> </a
+          ><div class="sign-in inter-bold-white-35-4px" style="visibility: hidden;">SIGN IN</div>
+
+        </div>
+        <div class="overlap-group3">
+          <div class="overlap-group2">
+            <div class="rectangle-128"></div>
+            <div class="rectangle-130"></div>
+            <div class="rectangle-135"></div>
+            <div class="rectangle-136"></div>
+            <div class="rectangle-137"></div>
+            <div class="rectangle-138"></div>
+            <div class="package-info valign-text-middle inter-normal-san-juan-15-4px">PACKAGE INFO</div>
+            <div class="payment-method valign-text-middle inter-normal-san-juan-15-4px">PAYMENT METHOD</div>
+            <div class="credit-card valign-text-middle inter-normal-san-juan-15-4px">CREDIT CARD</div>
+            <div class="ellipse-10"></div>
+            <div class="ellipse-12"></div>
+            <img class="layer_1" src="img/layer-1.svg" alt="Layer_1" />
+            <div class="rectangle-151"></div>
+            <img class="rectangle-152" src="img/rectangle-152.svg" alt="Rectangle 152" />
+            <div class="rectangle-153"></div>
+            <div class="component-1">
+              <input type="text" class="package-info valign-text-middle inter-normal-san-juan-15-4px" placeholder="CARD NUMBERS">
+            </div>
+            <input type="text" class="name-on-card valign-text-middle inter-normal-white-15-4px" placeholder="NAME ON CARD" />
+            <input type="text" class="mmyy valign-text-middle inter-normal-white-15-4px" placeholder="MM/YY" />
+            <input type="text" class="cvv valign-text-middle inter-normal-white-15-4px" placeholder="CVV" />
+            <button class="overlap-group"><div class="confirm-purchase"><a href="post-payment-page.html">CONFIRM PURCHASE</a></button><!--BUTTON-->
+            <div class="overlap-group1"> <!--PRODUCT INFO HER-->
+              <div class="price">$49.99</div>
+              <div class="group-52 group">
+                <div class="overlap-group-1">
+                  <div class="general-package">General Package</div>
+                  <div class="gap-unlimited">GAP Unlimited</div>
+                </div>
+                <div class="rectangle-2194"></div>
+                <p class="enjoy-unlimited-call">
+                  Enjoy unlimited calling and high-speed data for a month with Flipper Unlimited package.
+                </p>
+              </div>
+            </div>
+          </div>
+          <h1 class="title valign-text-middle">CONFIRM ORDER</h1>
+        </div>
+        <div class="group-57 group">
+          <div class="overlap-group-2">
+            <p class="x2023-ezcall-all-rights-reserved inter-bold-white-27-9px">© 2023 EZCALL. All rights reserved.</p>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script>
+
+
+      if (!HTMLFormElement.prototype.reportValidity) {
+        HTMLFormElement.prototype.reportValidity = function () {
+          if (this.checkValidity()) return true;
+          var btn = document.createElement("button");
+          this.appendChild(btn);
+          btn.click();
+          this.removeChild(btn);
+          return false;
+        };
+      }
+
+      function SubmitForm(form_name) {
+        var form = document.getElementsByName(form_name)[0];
+        if (form.reportValidity()) {
+          form.submit();
+          if (window.submitted) window.submitted();
+        }
+      }
+    </script>
+  </body>
+</html>
